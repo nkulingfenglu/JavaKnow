@@ -1,0 +1,59 @@
+[framework] 2019-09-06 10:41:49,824 - io.netty.util.internal.logging.InternalLoggerFactory -0    [Thread-2] DEBUG io.netty.util.internal.logging.InternalLoggerFactory  - Using Log4J as the default logging framework
+  [framework] 2019-09-06 10:41:49,835 - io.netty.channel.MultithreadEventLoopGroup -11   [Thread-2] DEBUG io.netty.channel.MultithreadEventLoopGroup  - -Dio.netty.eventLoopThreads: 8
+  [framework] 2019-09-06 10:41:49,885 - io.netty.util.internal.InternalThreadLocalMap -61   [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+  [framework] 2019-09-06 10:41:49,885 - io.netty.util.internal.InternalThreadLocalMap -61   [Thread-1] DEBUG io.netty.util.internal.InternalThreadLocalMap  - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+  [framework] 2019-09-06 10:41:49,907 - io.netty.channel.nio.NioEventLoop -83   [Thread-0] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.noKeySetOptimization: false
+  [framework] 2019-09-06 10:41:49,907 - io.netty.channel.nio.NioEventLoop -83   [Thread-0] DEBUG io.netty.channel.nio.NioEventLoop  - -Dio.netty.selectorAutoRebuildThreshold: 512
+  [framework] 2019-09-06 10:41:49,956 - io.netty.util.internal.PlatformDependent -132  [Thread-0] DEBUG io.netty.util.internal.PlatformDependent  - Platform: MacOS
+  [framework] 2019-09-06 10:41:49,959 - io.netty.util.internal.PlatformDependent0 -135  [Thread-0] DEBUG io.netty.util.internal.PlatformDependent0  - -Dio.netty.noUnsafe: false
+  [framework] 2019-09-06 10:41:49,960 - io.netty.util.internal.PlatformDependent0 -136  [Thread-0] DEBUG io.netty.util.internal.PlatformDependent0  - Java version: 8
+  [framework] 2019-09-06 10:41:49,963 - io.netty.util.internal.PlatformDependent0 -139  [Thread-0] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.theUnsafe: available
+  [framework] 2019-09-06 10:41:49,965 - io.netty.util.internal.PlatformDependent0 -141  [Thread-0] DEBUG io.netty.util.internal.PlatformDependent0  - sun.misc.Unsafe.copyMemory: available
+  [framework] 2019-09-06 10:41:49,966 - io.netty.util.internal.PlatformDependent0 -142  [Thread-0] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Buffer.address: available
+  [framework] 2019-09-06 10:41:49,967 - io.netty.util.internal.PlatformDependent0 -143  [Thread-0] DEBUG io.netty.util.internal.PlatformDependent0  - direct buffer constructor: available
+  [framework] 2019-09-06 10:41:49,969 - io.netty.util.internal.PlatformDependent0 -145  [Thread-0] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.Bits.unaligned: available, true
+  [framework] 2019-09-06 10:41:49,969 - io.netty.util.internal.PlatformDependent0 -145  [Thread-0] DEBUG io.netty.util.internal.PlatformDependent0  - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+  [framework] 2019-09-06 10:41:49,969 - io.netty.util.internal.PlatformDependent0 -145  [Thread-0] DEBUG io.netty.util.internal.PlatformDependent0  - java.nio.DirectByteBuffer.<init>(long, int): available
+  [framework] 2019-09-06 10:41:49,970 - io.netty.util.internal.PlatformDependent -146  [Thread-0] DEBUG io.netty.util.internal.PlatformDependent  - sun.misc.Unsafe: available
+  [framework] 2019-09-06 10:41:49,970 - io.netty.util.internal.PlatformDependent -146  [Thread-0] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.tmpdir: /var/folders/n2/f_01rgsd5yg0rwvjmkb0w8540000gn/T (java.io.tmpdir)
+  [framework] 2019-09-06 10:41:49,971 - io.netty.util.internal.PlatformDependent -147  [Thread-0] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+  [framework] 2019-09-06 10:41:49,973 - io.netty.util.internal.PlatformDependent -149  [Thread-0] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.maxDirectMemory: 1908932608 bytes
+  [framework] 2019-09-06 10:41:49,973 - io.netty.util.internal.PlatformDependent -149  [Thread-0] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+  [framework] 2019-09-06 10:41:49,979 - io.netty.util.internal.CleanerJava6 -155  [Thread-0] DEBUG io.netty.util.internal.CleanerJava6  - java.nio.ByteBuffer.cleaner(): available
+  [framework] 2019-09-06 10:41:49,980 - io.netty.util.internal.PlatformDependent -156  [Thread-0] DEBUG io.netty.util.internal.PlatformDependent  - -Dio.netty.noPreferDirect: false
+  [framework] 2019-09-06 10:41:50,015 - io.netty.util.internal.PlatformDependent -191  [Thread-0] DEBUG io.netty.util.internal.PlatformDependent  - org.jctools-core.MpscChunkedArrayQueue: available
+  [framework] 2019-09-06 10:41:50,208 - io.netty.channel.DefaultChannelId -384  [Thread-2] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.processId: 7796 (auto-detected)
+  [framework] 2019-09-06 10:41:50,213 - io.netty.util.NetUtil -389  [Thread-2] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv4Stack: false
+  [framework] 2019-09-06 10:41:50,213 - io.netty.util.NetUtil -389  [Thread-2] DEBUG io.netty.util.NetUtil  - -Djava.net.preferIPv6Addresses: false
+  [framework] 2019-09-06 10:41:50,216 - io.netty.util.NetUtil -392  [Thread-2] DEBUG io.netty.util.NetUtil  - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+  [framework] 2019-09-06 10:41:50,217 - io.netty.util.NetUtil -393  [Thread-2] DEBUG io.netty.util.NetUtil  - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+  [framework] 2019-09-06 10:41:50,253 - io.netty.channel.DefaultChannelId -429  [Thread-2] DEBUG io.netty.channel.DefaultChannelId  - -Dio.netty.machineId: a8:66:7f:ff:fe:24:1b:86 (auto-detected)
+  [framework] 2019-09-06 10:41:50,294 - io.netty.util.ResourceLeakDetector -470  [Thread-2] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.level: simple
+  [framework] 2019-09-06 10:41:50,294 - io.netty.util.ResourceLeakDetector -470  [Thread-2] DEBUG io.netty.util.ResourceLeakDetector  - -Dio.netty.leakDetection.targetRecords: 4
+  [framework] 2019-09-06 10:41:50,375 - io.netty.buffer.PooledByteBufAllocator -551  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numHeapArenas: 8
+  [framework] 2019-09-06 10:41:50,376 - io.netty.buffer.PooledByteBufAllocator -552  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.numDirectArenas: 8
+  [framework] 2019-09-06 10:41:50,376 - io.netty.buffer.PooledByteBufAllocator -552  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.pageSize: 8192
+  [framework] 2019-09-06 10:41:50,376 - io.netty.buffer.PooledByteBufAllocator -552  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxOrder: 11
+  [framework] 2019-09-06 10:41:50,376 - io.netty.buffer.PooledByteBufAllocator -552  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.chunkSize: 16777216
+  [framework] 2019-09-06 10:41:50,376 - io.netty.buffer.PooledByteBufAllocator -552  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.tinyCacheSize: 512
+  [framework] 2019-09-06 10:41:50,377 - io.netty.buffer.PooledByteBufAllocator -553  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.smallCacheSize: 256
+  [framework] 2019-09-06 10:41:50,377 - io.netty.buffer.PooledByteBufAllocator -553  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.normalCacheSize: 64
+  [framework] 2019-09-06 10:41:50,377 - io.netty.buffer.PooledByteBufAllocator -553  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+  [framework] 2019-09-06 10:41:50,377 - io.netty.buffer.PooledByteBufAllocator -553  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimInterval: 8192
+  [framework] 2019-09-06 10:41:50,380 - io.netty.buffer.PooledByteBufAllocator -556  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+  [framework] 2019-09-06 10:41:50,380 - io.netty.buffer.PooledByteBufAllocator -556  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.useCacheForAllThreads: true
+  [framework] 2019-09-06 10:41:50,381 - io.netty.buffer.PooledByteBufAllocator -557  [Thread-2] DEBUG io.netty.buffer.PooledByteBufAllocator  - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+  [framework] 2019-09-06 10:41:50,412 - io.netty.buffer.ByteBufUtil -588  [Thread-2] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.allocator.type: pooled
+  [framework] 2019-09-06 10:41:50,412 - io.netty.buffer.ByteBufUtil -588  [Thread-2] DEBUG io.netty.buffer.ByteBufUtil  - -Dio.netty.threadLoca[framework] 2019-09-06 10:41:50,788 - io.netty.util.Recycler -5192 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.maxCapacityPerThread: 4096
+  [framework] 2019-09-06 10:41:50,788 - io.netty.util.Recycler -5192 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+  [framework] 2019-09-06 10:41:50,788 - io.netty.util.Recycler -5192 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.linkCapacity: 16
+  [framework] 2019-09-06 10:41:50,788 - io.netty.util.Recycler -5192 [nioEventLoopGroup-3-1] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.ratio: 8
+  [framework] 2019-09-06 10:41:50,809 - io.netty.buffer.AbstractByteBuf -5213 [nioEventLoopGroup-3-2] DEBUG io.netty.buffer.AbstractByteBuf  - -Dio.netty.buffer.checkAccessible: true
+  [framework] 2019-09-06 10:41:50,810 - io.netty.buffer.AbstractByteBuf -5214 [nioEventLoopGroup-3-2] DEBUG io.netty.buffer.AbstractByteBuf  - -Dio.netty.buffer.checkBounds: true
+  [framework] 2019-09-06 10:41:50,811 - io.netty.util.ResourceLeakDetectorFactory -5215 [nioEventLoopGroup-3-2] DEBUG io.netty.util.ResourceLeakDetectorFactory  - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@46874d1a
+  Dio.netty.recycler.linkCapacity: 16
+  [framework] 2019-09-06 10:41:50,659 - io.netty.util.Recycler -835  [nioEventLoopGroup-4-1] DEBUG io.netty.util.Recycler  - -Dio.netty.recycler.ratio: 8
+  [framework] 2019-09-06 10:41:53,096 - io.netty.buffer.PoolThreadCache -3272 [nioEventLoopGroup-2-1] DEBUG io.netty.buffer.PoolThreadCache  - Freed 1 thread-local buffer(s) from thread: nioEventLoopGroup-2-1
+  [framework] 2019-09-06 10:41:53,097 - io.netty.buffer.PoolThreadCache -3273 [nioEventLoopGroup-4-1] DEBUG io.netty.buffer.PoolThreadCache  - Freed 1 thread-local buffer(s) from thread: nioEventLoopGroup-4-1
+  [framework] 2019-09-06 10:41:53,097 - io.netty.buffer.PoolThreadCache -3273 [nioEventLoopGroup-3-1] DEBUG io.netty.buffer.PoolThreadCache  - Freed 1 thread-local buffer(s) from thread: nioEventLoopGroup-3-1
+  
